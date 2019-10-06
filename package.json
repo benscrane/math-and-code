@@ -1,0 +1,16 @@
+{
+  "name": "math-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "author": "Ben Crane",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^1.2.5",
+    "vuepress": "^1.1.0"
+  }
+}
