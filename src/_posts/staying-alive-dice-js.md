@@ -149,4 +149,4 @@ probabilityUnion(0.5, 2, 2);
 ## Summary
 We've created a simple JavaScript function that can calculate the probability that a certain roll won't lose given any number of players left to go and any number of roll allowed.
 
-This function will be the basis for a larger function that determines whether or the computer player should roll again.  Since this math is too complex for a person to do on the fly in a real game of dice, the computer player should make statistically better decisions.
+This function will be the basis for a larger function that determines whether or not the computer player should roll again.  Since this math is too complex for a person to do on the fly in a real game of dice, the computer player should make statistically better decisions.
