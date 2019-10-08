@@ -1,6 +1,9 @@
 module.exports = {
     theme: '@vuepress/blog',
     title: 'Math & Code',
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
         nav: [
             {
