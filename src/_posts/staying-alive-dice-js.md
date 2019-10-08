@@ -107,7 +107,7 @@ I mentioned that we can use recursion to make our task easier in code.  This is 
 Here we have a function that calls it self n-1 times.  If we wrote that out it would get messy quickly but it's easy for a computer to keep track of it.  
 
 Here's this function in JavaScript.
-```
+```js
 function probabilityUnion(prob, numRolls, numPlayers) {
     if (numPlayers === 1) {
         return Math.pow(prob, numRolls);
@@ -128,20 +128,20 @@ We can test with the 3 scenarios we worked out manually to verify the function w
 
 #### 1 player, 2 rolls
 Given our roll of 54, which has a probability of 0.5, we found the probability of staying alive was 0.25.
-```
+```js
 probabilityUnion(0.5, 2, 1);
 >>> 0.25
 ```
 
 #### 2 players, 1 roll
 Here the probability of a roll of 54 staying alive was 0.75.
-```
+```js
 probabilityUnion(0.5, 1, 2);
 >>> 0.75
 ```
 #### 2 players, 2 rolls
 With 2 players and 2 rolls, the chance that a roll of 54 didn't lose was 0.4375.
-```
+```js
 probabilityUnion(0.5, 2, 2);
 >>> 0.4375
 ```
